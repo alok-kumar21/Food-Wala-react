@@ -1,5 +1,9 @@
+import Header from "../components/Header"
+import Footer from '../components/Footer';
 export default function About() {
   return (
+    <>
+    <Header/>
     <div className="container py-4">
       <h1 className="fs-1 fw-normal">About Our Restaurants</h1>
       <p className="text">
@@ -21,5 +25,7 @@ export default function About() {
         part of our culinary community!
       </p>
     </div>
+    <Footer/>
+    </>
   );
 }
